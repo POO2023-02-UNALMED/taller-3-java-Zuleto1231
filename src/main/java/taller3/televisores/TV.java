@@ -11,6 +11,7 @@ public class TV {
 	public TV(Marca marca, boolean estado) {
 		this.marca = marca;
 		this.estado = estado;
+		TV.numTV++;
 	}
 //setter y getter
 	public Marca getMarca() {
