@@ -3,11 +3,14 @@ package taller3.televisores;
 public class Control {
 	TV tv;
 	
+	public void setCanal(int canal) {
+		tv.canal = canal;
+	}
 	
-	public void turnON() {
+	public void turnOn() {
 		tv.estado=true;
 	}
-	public void turnOF() {
+	public void turnOff() {
 		tv.estado=false;
 	}
    public void canalUp() {
